@@ -1,0 +1,164 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/donation7.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-heading{
+    width: 45%;
+    color: lightgoldenrodyellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-heading h1{
+    font-size: 62px;
+}
+
+.text-heading p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* .paragraph-first{
+    width: 200%;
+    color: lightgoldenrodyellow;
+} */
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: tomato;
+}
+/* today-donate first heading and first paragraph */
+.today-donate{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+
+}
+.today-donate h1{
+    color: red;
+    font-size: 600%;
+}
+
+.today-donate p{
+    color: black;
+    font-size: 100%;
+}
+
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 130px ;
+    text-align: center;
+
+}
+/* about section styles */
+
+.about{
+    background: #FFF8F3;
+    border-radius: 10PX;
+    padding:130px 150px ;
+    text-align: center;
+
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+
+}
+
+.section-description{
+
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
+
+}
+
+.btn-btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: tomato;
+}
+
+
+.donate-plan h1{
+    color:yellow;
+}
+#plan-paragraph p{
+    color: tomato;
+}
+
+/* what i do styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px  ;
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.skill-description{
+
+    color: #757575;
+}
