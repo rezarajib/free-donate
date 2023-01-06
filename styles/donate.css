@@ -162,3 +162,14 @@ section{
 
     color: #757575;
 }
+
+.lives-depend h1{
+    text-align: left;
+    font-size: large;
+}
+
+#para{
+    text-align: left;
+    font-size: large;
+    color: red;
+}
